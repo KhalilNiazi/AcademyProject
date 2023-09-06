@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Academy" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <item name="colorPrimary">@color/pivk</item>
+        <item name="colorPrimaryVariant">@color/pivk</item>
+        <item name="colorOnPrimary">@color/pivk</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/pivk</item>
+        <item name="colorSecondaryVariant">@color/pivk</item>
+        <item name="colorOnSecondary">@color/pivk</item>
+    </style>
+</resources>

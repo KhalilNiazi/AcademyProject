@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/upload">
+
+    <fragment
+        android:id="@+id/upload"
+        android:name="com.niazi.academy.fragment.Upload_Detail"
+        android:label="Academy"
+        tools:layout="@layout/fragment_upload__detail" >
+       </fragment>
+
+
+    <fragment
+        android:id="@+id/showDetail"
+        android:name="com.niazi.academy.fragment.Main_fragment"
+        android:label="Show Detail"
+        tools:layout="@layout/fragment_main" />
+
+
+</navigation>

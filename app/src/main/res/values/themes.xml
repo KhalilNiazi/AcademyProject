@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Academy" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/pivk</item>
+
+        <item name="colorPrimaryVariant">@color/pivk</item>
+        <item name="colorOnPrimary">@color/pivk</item>
+        <item name="colorSecondary">@color/pivk</item>
+        <item name="colorSecondaryVariant">@color/pivk</item>
+        <item name="colorOnSecondary">@color/blue</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/pivk</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+
+    <style name="Theme.Academy.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Academy.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Academy.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
