@@ -8,7 +8,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity2 extends AppCompatActivity {
 
 
-    TextView nametv;
+    TextView nametv,emailtv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
